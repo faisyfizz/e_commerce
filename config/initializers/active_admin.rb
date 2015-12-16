@@ -35,6 +35,7 @@ ActiveAdmin.setup do |config|
   #
   # Default:
   # config.default_namespace = :admin
+  config.default_namespace = :activeadmin
   #
   # You can customize the settings for each namespace by using
   # a namespace block. For example, to change the site title
