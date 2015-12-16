@@ -97,6 +97,7 @@ GEM
     multi_json (1.11.2)
     mysql2 (0.3.20)
     orm_adapter (0.5.0)
+    pg (0.18.4)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.5)
@@ -115,6 +116,11 @@ GEM
       activesupport (= 3.2.18)
       bundler (~> 1.0)
       railties (= 3.2.18)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.4)
     railties (3.2.18)
       actionpack (= 3.2.18)
       activesupport (= 3.2.18)
@@ -160,7 +166,9 @@ DEPENDENCIES
   jquery-rails (~> 2.3.0)
   meta_search (>= 1.1.0.pre)
   mysql2 (~> 0.3.10)
+  pg
   rails (= 3.2.18)
+  rails_12factor
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
 
