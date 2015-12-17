@@ -1,12 +1,12 @@
 ECommerce::Application.routes.draw do
   
 root to: "products#index"
+   devise_for :users
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
    
-   devise_for :users
    ActiveAdmin.routes(self)
    resources :products do 
    resources :comments
